@@ -1,0 +1,9 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">TempHilt</string>
+    <string name="hello_blank_fragment">Hello Test fragment</string>
+    <string name="hello_dog_fragment">Hello Dog Fragment</string>
+    <string name="title_delete">Delete</string>
+    <string name="btn_added">ADDED</string>
+    <string name="btn_add">ADD</string>
+</resources>

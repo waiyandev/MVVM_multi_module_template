@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_module"
+    app:startDestination="@id/dogFragment">
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.showti.features.ui.ListFragment"
+        android:label="TestFragment" >
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment2"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dogFragment"
+        android:name="com.showti.features.ui.DogFragment"
+        android:label="DogFragment" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.showti.features.ui.DetailFragment"
+        android:label="DetailFragment">
+    </fragment>
+</navigation>
