@@ -1,7 +1,7 @@
 # TempHilt
 ## MVVM_multi_module_template
 
-## Teach Stack
+## List of stacks
 - MVVM
 - Hilt
 - Multi-modules
